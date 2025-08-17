@@ -1,6 +1,6 @@
 # Scraper 
 
-This is a Python script that scrapes public directoriesoriginally used to scrape art galleries in a specific area. 
+This is a Python script that scrapes public directories originally used to scrape art galleries in a specific area. 
 
 ## How to run
 
