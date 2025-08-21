@@ -1,8 +1,8 @@
-## New-Scraper Branch: Example Python Scraper (Art Galleries)
+## UPDATE Branch: Example Python Scraper (Art Galleries)
 
-This branch contains an **example Python scraper** that collects information from Artsy.net for galleries in Maryland using BeautifulSoup.
+This branch contains an UPDATE **example Python scraper** that collects information from Artsy.net for galleries using BeautifulSoup.
 
-### What it does
+### What this update does
 
 - Scrapes Artsy gallery pages for galleries as an example.
 - Collects:
@@ -18,6 +18,4 @@ this update also has a Includes a 1-second delay between pages to avoid overwhel
 
 ```bash
 pip install requests beautifulsoup4
-run with python3 scrape_md_galleries.py or change the name when u
- rewrite etc
-
+run with python3 scrape_md_galleries.py or change the name for your use and rewrite etc.
