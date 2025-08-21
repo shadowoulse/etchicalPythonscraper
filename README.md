@@ -1,12 +1,23 @@
-# Scraper 
+## New-Scraper Branch: Example Python Scraper (Art Galleries)
 
-This is a Python script that scrapes public directories originally used to scrape art galleries in a specific area. 
+This branch contains an **example Python scraper** that collects information from Artsy.net for galleries in Maryland using BeautifulSoup.
 
-## How to run
+### What it does
 
-1. Create a virtual environment:
-   ```bash
-   python3 -m venv venv
-   source venv/bin/activate 
-   pip install requests beautifulsoup4
-   python scrape_md_galleries.py
+- Scrapes Artsy gallery pages for galleries as an example.
+- Collects:
+  - Gallery website URL
+  - Email addresses (if found)
+- Outputs the results to a CSV file: this example would be `maryland_galleries.csv`.
+- Automatically loops through multiple pages of gallery listings.
+this update also has a Includes a 1-second delay between pages to avoid overwhelming the server.
+### How to run
+
+1. Make sure Python 3 is installed.
+2. Install required packages:
+
+```bash
+pip install requests beautifulsoup4
+run with python3 scrape_md_galleries.py or change the name when u
+ rewrite etc
+
